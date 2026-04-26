@@ -15,7 +15,6 @@
   yarn
   yarn build
   yarn start
-
   ```
   
 ## ⚙️ Launch in mock mode
@@ -23,11 +22,9 @@
 - **Build mockServiceWorker.js**
   ```
   yarn build:mock
-
   ```
 
 - **Run app with mock tests**
   ```
   yarn start:mock
-
   ```
