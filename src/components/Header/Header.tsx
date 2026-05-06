@@ -13,7 +13,14 @@ const Header = () => {
         >
           Меню
         </NavLink>
-        {/* Новые кнопки будут добавляться здесь */}
+        <NavLink 
+          to="/contacts" 
+          className={({ isActive }) => 
+            isActive ? 'header__link header__link--active' : 'header__link'
+          }
+        >
+          Контакты
+        </NavLink>
       </nav>
     </header>
   );
